@@ -33,12 +33,12 @@ async function main() {
     }
 
     if (patterns.length === 0) {
-        console.error('Usage: openccjs-cli [options] "<glob>" [more patterns...]');
+        console.error('Usage: openccjs [options] "<glob>" [more patterns...]');
         console.error('Options:');
         console.error('  --from <locale>  Source locale (default: "cn")');
         console.error('  --to <locale>    Target locale (default: "tw")');
         console.error('  --verbose        Show processed file paths');
-        console.error('Example: openccjs-cli --from cn --to tw "./**/*.{js,ts}"');
+        console.error('Example: openccjs --from cn --to tw "./**/*.{js,ts}"');
         process.exit(1);
     }
 
