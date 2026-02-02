@@ -1,0 +1,27 @@
+{
+  "name": "openccjs-cli",
+  "version": "1.0.0",
+  "description": "CLI to convert Simplified Chinese to Traditional across files",
+  "type": "module",
+  "main": "open-cc.js",
+  "bin": {
+    "openccjs": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "opencc",
+    "traditional-chinese",
+    "simplified-chinese",
+    "cli",
+    "glob"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "opencc-js": "^1.0.5"
+  }
+}
