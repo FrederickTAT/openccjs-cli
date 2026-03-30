@@ -8,7 +8,8 @@
     "openccjs": "./bin/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/cli.js"
   },
   "keywords": [
     "opencc",
@@ -22,6 +23,7 @@
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
     "fast-glob": "^3.3.3",
-    "opencc-js": "^1.0.5"
+    "opencc-js": "^1.0.5",
+    "commander": "^14.0.3"
   }
 }
